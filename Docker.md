@@ -21,5 +21,6 @@ yum list installed | grep docker
 docker-engine.x86_64                 17.03.0.ce-1.el7.centos         @dockerrepo
 ```
 - 删除安装的软件包
+
 `yum -y remove docker-engine.x86_64`
 
